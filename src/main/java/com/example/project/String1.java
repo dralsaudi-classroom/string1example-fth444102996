@@ -43,7 +43,7 @@ public class String1 {
         for(int i=0; i<=size/2; i++) {
         	temp = str[i];
         	str[i] = str[size-i];
-        	str[size] = temp;
+        	str[size-i] = temp;
         }
     }
 }
